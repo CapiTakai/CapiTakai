@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.footer{
+    border-top: #01B4DF solid 3rem;
+    background: linear-gradient(to right, #DF3314 90%,  #A72616 100%);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    overflow-x: auto;
+}
+
+.footer .row{
+    width: 100%;
+    margin: 1.5rem 1rem;
+    color: #fff;
+}
+
+.footer .row a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+.footer .row a:hover{
+    color: #000;
+}
+
+.footer .row ul{
+    text-align: center;
+    list-style: none;
+}
+
+.footer .row ul li{
+  display:inline-block;
+  margin: 30px 10px;
+  }
+
+.icon{
+    max-height: 2rem;
+    object-fit: contain;
+    margin: 1rem 1rem;
+    color: #fff;
+}
+
+
+
+/**************//*Version Celular*/
+@media (max-width: 768px){
+.footer{
+    border-top: #01B4DF solid 2rem;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.footer .row ul li{
+    display: block;
+    text-align: left;
+}
+}
+

@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/**************//*Version Celulres*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, transparent 5%, #DF3314 90%);
+    border-bottom-right-radius: 1rem;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    
+}
+
+.columnas{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Audiowide', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    margin: 0.8rem;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Audiowide', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    text-align: left;
+
+}
+
+h3{
+    font-family: 'Audiowide', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-align: left;
+
+}
+
+p, ::placeholder, option{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin: 0.5rem 1rem;
+}
+
+ul{
+     margin: 1rem;
+      font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+ul li{
+    text-decoration: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.inicio{
+    padding: 1rem 4rem ;
+    text-align: left;
+    border-bottom: #D8D3D5 1px solid;
+}
+
+.image{
+    text-align: center;
+}
+.foto_v{
+    max-height: 20rem;
+    object-fit: contain;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    
+}
+.foto_h{
+    max-width: 22rem;
+    object-fit: contain;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    
+}
+
+.foto_h2{
+    max-width: 22rem;
+    object-fit: contain;
+    margin: 1rem 1rem;
+    border-radius: 2rem;
+    
+}
+
+.boton{
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    border: none;
+    cursor: pointer;
+    transition: background 0.5s;
+    margin: 0.5rem;
+}
+
+.bt-primario{
+    background-color: #01B4DF;
+    color: #ffff;
+}
+
+.bt-primario:hover{
+    background-color: #DF3314;
+}
+
+.redes{
+    margin: 0.25rem;
+}
+
+.container{
+    margin: 1rem;
+    background-color: #01B4DF;
+    border-radius: 10px;
+}
+.container2{
+    margin: 1rem;
+    background-color: #D8D3D5;
+    border-radius: 10px;
+
+}
+.container3{
+    margin: 1rem;
+    background-color: #DF3314;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+form{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 0.5rem 1rem;
+
+}
+
+fieldset{
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;              
+    padding: 12px 16px;      
+    border-radius: 10px;     
+    border: 1px solid #ccc;   
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    box-sizing: border-box; 
+}  
+
+
+/**************//*Version Tablet*/
+@media (min-width: 768px){
+header{
+    background: linear-gradient(to right, transparent 20%, #D8D3D5 80%);
+    border-bottom-right-radius: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+     margin: 0.8rem 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+     margin: 0.8rem 2rem;
+}
+
+p, ::placeholder, option{
+    font-size: 1rem;
+    margin: 0.8rem 2rem;
+}
+
+form{
+    font-size: 1rem;
+    margin: 0.8 2rem;
+}
+
+ul li{
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.inicio{
+    text-align: left;
+    padding: 2rem 6rem;
+}
+
+.columnas{
+    flex-direction: row-reverse;
+}
+
+.columnas > div {
+        flex: 1;
+    }
+
+.foto_v{
+    max-height: 24rem;
+    margin: 2rem;
+    border-radius: 3rem;
+}
+
+.foto_h{
+    max-width: 26rem;
+    border-radius: 3rem;
+}
+
+.foto_h2{
+    max-width: 40rem;
+    border-radius: 3rem;
+}
+
+.redes{
+    margin: 1rem;
+}
+
+.container{
+    border-radius: 20px;
+}
+.container2{
+    border-radius: 20px;
+}
+.container3{
+    border-radius: 20px;
+}
+}
+
+
+
+
+/**************//*Version Escritorio*/
+@media (min-width: 1024px){
+header{
+    background: linear-gradient(to right, transparent 20%, #D8D3D5 80%);
+    border-bottom-right-radius: 2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+     margin: 0.8rem 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+     margin: 0.8rem 2rem;
+}
+
+p, ::placeholder, option{
+    font-size: 1.2rem;
+    margin: 1rem 3rem;
+}
+
+form{
+    font-size: 1.2rem;
+    margin: 1rem 3rem;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
+
+.inicio{
+    text-align: left;
+    padding: 2rem 10rem;
+}
+
+.columnas{
+    flex-direction: row-reverse;
+}
+
+.columnas > div {
+        flex: 1;             /* AMBAS columnas ocupan 50% del espacio */
+    }
+
+.foto_v{
+    max-height: 28rem;
+    border-radius: 3rem;
+    margin: 3rem;
+}
+
+.foto_h{
+    max-width: 30rem;
+    border-radius: 3rem;
+}
+
+.foto_h2{
+    max-width: 50rem;
+    border-radius: 3rem;
+}
+
+.redes{
+    margin: 2rem;
+}
+
+.container{
+    border-radius: 20px;
+}
+.container2{
+    border-radius: 20px;
+}
+.container3{
+    border-radius: 20px;
+}
+}
